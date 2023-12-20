@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <div id="header"> 
+      <div class="container">
+         <nav>
+             <img src="img/logo mine.png" class="logo">
+
+             <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+                 <i class="fa fa-times" onclick="closemenu()"></i>
+             </ul>
+             <i class="fa fa-bars" onclick="openmenu()"></i>
+         </nav>
+         
+         <div class="header-text">
+            <p>Surveyor,<br> Graphic Designer, <br>Frontend Developer <br> & Building Engineer</p>
+            <h1>Hi, I'm <span>Winner</span><br>Obi from <span class="dog"> Ni<span class="dog1">ger</span>ia</span></h1>
+         </div>
+     </div>
+ </div>
+
+ <!----------------ABOUT-------------------->
+
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="IMG/user mine.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Am a self-driven land surveyor, builder
+                 Topographer and web development enthusiast.<br> 
+                 I love creating amazing Graphic contents
+                 and user friendly web contents... 
+                 with spectacular User interface and User Experience.
+                 Have completed several projects, 
+                 both as a Developer, Builder, Surveyor and Graphic Designer.
+                 
+            </p>
+            <div class="tab-titles">
+                <P class="tab-links active-link" onclick="opentab('skills')">Skills </P>
+                <P class="tab-links" onclick="opentab('experience')">Experience </P>
+                <P class="tab-links" onclick="opentab('education')">Education </P>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+               <ul>
+                <li><span>Graphic Design</span><br>Designing graphic contents  using PIXELLAB, PHOTOSHOP and CORELDRAW</li><br>
+                <li><span>Building Engineer</span><br>Responsible for the planning, design, construction and operation of a building.</li><br>
+                <li><span>Web development</span><br> Web development with media interface using HTML, CSS, JAVASCRIPT, BOOTSTRAP and PHP</li><br>
+                <li><span>Surveyor/Geoinformatician</span><br>Landed property Surveyor/Engineer </li><br>
+               </ul> 
+            </div>
+
+            <div class="tab-contents" id="experience">
+                <ul>
+                 <li><span>06/22 - 08/22</span><br>Soft skills training (Jobberman Nigeria)</li><br>  
+                 <li><span>2019 - 2021</span><br>Smartphone graphic design (Tonye graphic inc Lagos)</li><br>
+                 <li><span>2012 - 2016</span><br>Industrial training (Geobase surveys & technical Services Ltd Porthacourt)</li><br>
+                 <li><span>2017 - 2019</span><br>Chain man/Office assist (Ministry of lands Enugu)</li><br>
+                 <li><span>2022 - 2023</span><br> Web development/Graphic design (Unique computer institue Owerri)</li><br>
+                 <li><span>2022 - 2023</span><br> Software Engineer (Frontend specialization) (ALX Africa)</li><br>
+                </ul> 
+             </div>
+             <div class="tab-contents" id="education">
+                <ul>
+                 <li><span>2023</span><br>Software Engineer (ALX Africa)</li><br>
+                 <li><span>2022</span><br>Web Development/Graphic design (Unique computer institue)</li><br>
+                 <li><span>2021</span><br>Smartphone graphic Designer (Tonye graphics)</li><br>
+                 <li><span>2020</span><br>Industrial Training (Sirkingx Constructions)</li><br>
+                 <li><span>2016</span><br>Higher Diploma in Survey (Fedpolynek)</li><br>
+                 <li><span>2012</span><br>Diploma in Survey (Fedpolynek)</li><br>
+                </ul> 
+             </div>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!---------Services------------->
+
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+               <i class="fa fa-code"></i> 
+                <h2>Web Design & Development</h2>
+                <p>I design websites at affordable prices
+                    be it for ECommerce, Education, etc.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa fa-laptop"></i>
+                <h2>Graphic Designs</h2>
+                <p>proficient in producing numerous Designs
+                    at affordable prices, i design logos, 
+                    business cards, banners ETC
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa fa-binoculars"></i>
+                <h2>Landed property Surveyor</h2>
+                <p> contact me for your landed property 
+                    survey plan and documentation.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div><br><br>
+
+ <!----------PORTfolio------------->
+
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/web design 1.jpg">
+                <div class="layer">
+                    <h3>Web design</h3>
+                    <p>For your affordable websites with great UI/UX interface </p>
+                    <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/winners grapics.jpg">
+                <div class="layer">
+                    <h3>Graphic design</h3>
+                    <p>For official logos, business cards, banners, posters etc  </p>
+                    <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/winners survey.jpg">
+                <div class="layer">
+                    <h3>land surveys</h3>
+                    <p>for your survey plans and landed property documentation</p>
+                    <a href="#"><i class="fa fa-external-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+<!---------------IMAGE SLIDER-------------------------->
+<h2>SLIDER OF MY WORKS</h2>
+<br><br>
+<section class="container-1">
+<div class="image-box">
+    <div class="image">
+       <img class="img1" src="IMG/pic 1.jpg"> 
+    </div>
+    <div class="image">
+        <img class="img2" src="IMG/pic 2.jpg">
+    </div>
+    <div class="image">
+<img class="img3" src="IMG/pic 3.jpg">
+    </div>
+    <div class="image">
+        <img class="img4" src="IMG/pic 4.PNG">
+    </div>
+    <div class="image">
+        <img class="img5" src="IMG/pic 5 baber shop.PNG">
+    </div>
+    <div class="image">
+        <img class="img6" src="IMG/work-1.png">
+    </div>
+      
+    </div>
+</div>
+</section><br><br>
+
+
+<!-----------------------footer--------------------->
+<section class="footer">
+    <h4>LITTLE MORE ABOUT ME</h4>
+    <p style="font-style:italic;">Hi am <strong style="color: magenta;">OBI WINNER</strong> from Imo state, <br>
+        Nigeria....ihitte/uboma to be exact,<br>
+         am a graduate of Federal Polytechnic Nekede,<br>
+          Owerri where i studied <strong style="color:magenta;">Surveying and Geoinformatics</strong>,<br>
+           but my passion for computer technology drove me into<br>
+           studing to be a Programmer and Developer.
+        </p><br><br>
+        <marquee><h4 style="color:yellow; font-style: italic;"> HIRE ME TODAY...</h4></marquee><br>
+            <p style="font-style:italic;">For your Land Survey, Graphic Design, Web Design 
+            & Web Development Jobs and Works</P><br>
+        
+
+    <div class="icons">
+        <i class="fa fa-facebook-square" id="f1"></i>
+        <i class="fa fa-twitter-square" id="f2"></i>
+        <i class="fa fa-instagram" id="f3"></i>
+        <i class="fa fa-linkedin" id="f4"></i>
+        <i class="fa fa-paper-plane" id="f5"></i>
+        <i class="fa fa-whatsapp" id="f6"></i>
+    </div>
+</section><br><br>
+   <!-----------CONTACT US------------->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fa fa-paper-plane"></i> Obiwinner94@gmail.com</p>
+               <p><i class="fa fa-phone-square"></i> 08169196576 or  +234-708-127-5638</p>
+               <div class="social-icons">
+                   <a href="#"><i class="fa fa-facebook"></i></a>
+                   <a href="#"><i class="fa fa-twitter-square"></i></a>
+                   <a href="#"><i class="fa fa-instagram"></i></a>
+                   <a href="#"><i class="fa fa-linkedin"></i></a>
+               </div>
+               <a href="IMG/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form action="http://localhost/project/form3.php" method="post">
+                    <input type="text" name="user" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message"  placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"><h2>Submit</h2></button>
+                </form>
+            </div>
+        </div>
+    </div><br><br>
+ 
+    <div class="copyright">
+        <p>copyright @ Winner's Graphic Design  <i class="fa fa-heart"></i></p>
+    </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+ <!------JAVASCRIPT FOR MENU BAR AND ABOUT TOGGLE (skills,experience ETC)-------->
+
+ <script>
+
+    //-------javascript for menu bar------
+
+ var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0";
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px";
+  }
+</script>
+
+
+<script>
+//------JAVASCRIPT FOR ABOUT TOGGLE(skills,experience ETC)----//
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+
+<script>
+
+//----Sticky navbar SCRIPT---------//
+const header = document.querySelector("nav");
+window.addEventListener("scroll",function(){
+    header.classList.toggle("sticky",this.window.scrollY > 50)
+})
+
+</script>
+
+
+</body>
+</html>
