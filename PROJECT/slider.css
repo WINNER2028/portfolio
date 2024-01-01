@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background: black;
+}
+
+/*------------- IMAGE SLIDER-------------*/
+H2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    
+  }
+  
+  .container-1{
+    padding: 2rem;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    border: 7px solid #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+  }
+  .image-box{
+    display: flex;
+    overflow-x: auto;
+    height: 100%;
+    width: 400%;
+    justify-content: space-between;
+  }
+  .image-box{
+    animation: imgBox 10s linear infinite;
+  }
+  @keyframes imgBox{
+    0%{
+      margin-left: 0;
+    }
+    100%{
+      margin-left: -300%;
+    }
+  
+  
+  }
+  .image-box:hover{
+    animation-play-state: paused;
+  }
+  
+  .image-box .image{
+    width: calc(100% - 100px);
+    height: 100%;
+  }
+  .image-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+  }
+  
+  .btn{
+    display: block;
+    margin: 40px auto;
+    width: fit-content;
+    border: 4px solid greenyellow;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: background 1s;
+}
+.btn:hover{
+    background: red;
+}
+
+  

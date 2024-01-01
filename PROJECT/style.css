@@ -50,8 +50,15 @@ nav.sticky{
 }
 
 .logo{
-   width: 180px; 
-} 
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+span{
+    color: red;
+}
+
 
 nav ul li{
     display: inline-block;
@@ -298,7 +305,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 40px auto;
     width: fit-content;
-    border: 1px solid red;
+    border: 4px solid rgb(0, 255, 119);
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -374,63 +381,6 @@ form .btn2{
     margin-top: 10px;
     cursor: pointer;
 }
-
-/*------------- IMAGE SLIDER-------------*/
-H2{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-    
-}
-
-.container-1{
-    padding: 2rem;
-    max-width: 100%;
-    margin: 0 auto;
-    width: 100%;
-    height: 500px;
-    border: 7px solid #fff;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
-    overflow: hidden;
-  }
-  .image-box{
-    display: flex;
-    overflow-x: auto;
-    height: 100%;
-    width: 400%;
-    justify-content: space-between;
-  }
-  .image-box{
-    animation: imgBox 10s linear infinite;
-  }
-  @keyframes imgBox{
-    0%{
-      margin-left: 0;
-    }
-    100%{
-      margin-left: -300%;
-    }
-
-
-  }
-  .image-box:hover{
-    animation-play-state: paused;
-  }
-
-  .image-box .image{
-    width: calc(100% - 100px);
-    height: 100%;
-  }
-  .image-box img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    aspect-ratio: 16/9;
-  }
-  
-
-
 
 
 
