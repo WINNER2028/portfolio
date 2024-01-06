@@ -443,7 +443,7 @@ nav .fa{
 
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(img/for\ phone.png);
+        background-image: url(IMG/forphone.png);
     }
 
     .header-text{
@@ -462,7 +462,7 @@ nav .fa{
     }
 
     nav ul{
-        background: red;
+        background: tomato;
         position: fixed;
         top: 0;
         right: -200px;
