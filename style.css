@@ -54,6 +54,7 @@ nav.sticky{
     font-weight: 900;
     letter-spacing: 1px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 span{
