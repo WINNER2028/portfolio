@@ -54,22 +54,6 @@ nav.sticky{
     font-weight: 900;
     letter-spacing: 1px;
     cursor: pointer;
-    color: white;
-    text-decoration: none;
-}
-
-.logo a::after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: red;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5s;
-}
-.logo a:hover::after{
-    width: 100%;
 }
 
 
