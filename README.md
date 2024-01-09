@@ -4,7 +4,7 @@ FRONTEND SPECIALIZATION PROJECT
 The aim of the project is to create a visual representation of educatonal qualifications, skills, expertise, and capabilities and work experience as a frontend/backend engineer, civil engineer, architect and so on, sortof like an digital resume. It allows you to demonstrate your proficiency in various technologies, and design principles.
 
 INSPIRATION
-Early last year I went for an interview and when I
+Early in year 2022 I went for an interview and when I
 submitted my file, the interviewer asked me if I
 had like a digitalized form of what I have in my file
 I told her that I don't she looked a bit disappointed
